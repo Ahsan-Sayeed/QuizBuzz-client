@@ -1,6 +1,10 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import {Link} from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
+
 const Card = ({ name, logo, total,id }) => {
   return (
     <div className="col-md-6 col-lg-4 col-xl-3 col-sm-12 py-2 d-flex justify-content-center">
@@ -20,7 +24,8 @@ const Card = ({ name, logo, total,id }) => {
           </div>
           <div>
             <Button size="sm">
-                <Link to={"/"+id} className="text-white text-decoration-none">Start practice</Link>
+                <Link to={"/"+id} className="text-white text-decoration-none">Start practice <FontAwesomeIcon icon={faArrowRight} /></Link>
+                
             </Button>
           </div>
         </div>
