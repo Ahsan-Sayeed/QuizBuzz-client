@@ -15,7 +15,7 @@ const Card = ({ name, logo, total,id }) => {
           <div>
             <p className="card-text">
               <span style={{fontWeight:'bold'}}>{name}</span> <br />
-              <span style={{fontSize:'12px'}}>Total: {total}</span>
+              <span style={{fontSize:'12px'}}>Questions: {total}</span>
             </p>
           </div>
           <div>
