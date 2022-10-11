@@ -1,9 +1,11 @@
 import React from 'react';
-
+import { useLoaderData } from 'react-router-dom';
+import CardContainer from '../CardContainer/CardContainer';
 const Topics = () => {
+
     return (
         <div>
-            This is topic page
+            <CardContainer></CardContainer>
         </div>
     );
 };
