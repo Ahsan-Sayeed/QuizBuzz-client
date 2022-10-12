@@ -9,7 +9,8 @@ const QuizContainer = () => {
   const notify = (e) => toast(e);
 
   return (
-    <div className="my-5">
+    <div className="my-5 container">
+      <div className="container">
       <h1 className="text-center">Quiz of {data.name}</h1>
       {data.questions.map((value, index) => (
         <QuizQuestions
@@ -22,6 +23,7 @@ const QuizContainer = () => {
         ></QuizQuestions>
       ))}
       <ToastContainer />
+      </div>
     </div>
   );
 };
