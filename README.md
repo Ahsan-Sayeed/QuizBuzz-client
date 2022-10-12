@@ -2,7 +2,7 @@
 This project is on quize test website , named QuizBuzz
 
 # Live Website Link 
-(https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Ahsan-Sayeed)
+(https://bucolic-cactus-28b374.netlify.app/)
 
 # On this project__
 <ul>
