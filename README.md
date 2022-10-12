@@ -1,3 +1,16 @@
+# Project Name
+This project is on quize test website , named QuizBuzz
+
+# Live Website Link 
+(https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Ahsan-Sayeed)
+
+# On this project__
+<ul>
+    <li>I used bootstrap react on this project, and react-router-dom for routing</li>
+    <li>I've used carousel as header of this project , created some cards and navigation and footer also. For chart I used rechart node package manager</li>
+    <li>In the quiz section data was loaded from an api and toast was used to show correct answer and message on correct option selection</li>
+</ul>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
